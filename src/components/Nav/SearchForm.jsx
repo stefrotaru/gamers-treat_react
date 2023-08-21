@@ -1,15 +1,15 @@
 // import { useNavigate } from 'react-router-dom';
-import { useState } from 'react';
+import { useState } from "react";
 // import { useContext } from 'react';
 // import { SearchContext } from '../../../Context/SearchContext';
 
-import SearchIcon from '@mui/icons-material/Search';
-import "./SearchForm.css";
+import SearchIcon from "@mui/icons-material/Search";
+import "./SearchForm.scss";
 
 const SearchForm = () => {
   const [searchInput, setSearchInput] = useState("");
-//   const searchContext = useContext(SearchContext);
-//   const navigate = useNavigate();
+  //   const searchContext = useContext(SearchContext);
+  //   const navigate = useNavigate();
 
   const handleChange = (e) => {
     setSearchInput(e.target.value);
@@ -26,12 +26,12 @@ const SearchForm = () => {
       <input
         type="text"
         placeholder="Search for products"
-        className="search__form__input"
+        className="search-form__input"
         value={searchInput}
         onChange={handleChange}
         required
       />
-      <button className="search__form__button" type="submit">
+      <button className="search-form__button" type="submit">
         <SearchIcon fontSize="medium" />
       </button>
     </form>

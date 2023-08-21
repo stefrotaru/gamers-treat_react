@@ -1,0 +1,38 @@
+.nav-links__container {
+  display: flex;
+  justify-content: center;
+
+  .nav {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+
+    a {
+      text-decoration: none;
+      color: rgb(3, 3, 3);
+
+      &:hover {
+        color: rgb(113, 113, 113);
+      }
+    }
+  }
+}
+
+// .control__small {
+//     width: 50%;
+//     height: auto;
+//     display: none;
+// }
+
+// @media screen and (max-width: 780px) {
+//     .control__small{
+//        display: flex;
+//        margin: auto 10px;
+//     }
+// }
