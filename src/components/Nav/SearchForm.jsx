@@ -4,7 +4,6 @@ import { useState } from "react";
 // import { SearchContext } from '../../../Context/SearchContext';
 
 import SearchIcon from "@mui/icons-material/Search";
-import "./SearchForm.scss";
 
 const SearchForm = () => {
   const [searchInput, setSearchInput] = useState("");

@@ -1,3 +1,40 @@
+// header component
+.header__container {
+  display: flex;
+  justify-content: space-between;
+
+  position: sticky;
+  margin: 25px;
+}
+
+.sub-header_container {
+  min-height: 50px;
+
+  background-color: greenyellow;
+}
+
+// nav brand component
+
+.nav-brand__container {
+  height: 50px;
+  width: 50px;
+
+  background-color: blueviolet;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+
+  &:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+}
+
+// nav links component
+
 .nav-links__container {
   display: flex;
   justify-content: center;

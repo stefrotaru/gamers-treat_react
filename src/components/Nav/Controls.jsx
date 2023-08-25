@@ -6,8 +6,6 @@ import Badge from "@mui/material/Badge";
 // import { useContext } from 'react';
 // import { WishItemsContext } from '../../../Context/WishItemsContext';
 
-import "./Controls.scss";
-
 // const Controls = () => {
 //     return (
 //         <div className='controls__container'>

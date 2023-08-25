@@ -1,4 +1,3 @@
-import "./NavLinks.scss";
 
 const NavLinks = () => {
   return (

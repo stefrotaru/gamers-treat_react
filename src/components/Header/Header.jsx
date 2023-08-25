@@ -4,8 +4,6 @@ import Controls from "../Nav/Controls";
 
 import NavLinks from "../Nav/NavLinks";
 
-import "./Header.scss";
-
 const Header = () => {
   return (
     <>
