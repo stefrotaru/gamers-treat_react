@@ -1,21 +1,15 @@
+import { NavLink } from "react-router-dom";
 
 const NavLinks = () => {
   return (
     <nav className="nav-bottom__container">
       <div className="nav-links__container">
         <ul className="nav">
-          <li className="nav-link">
-            <a href="/pc-games">PC Games</a>
-          </li>
-          <li className="nav-link">
-            <a href="/xbox-games">Xbox Games</a>
-          </li>
-          <li className="nav-link">
-            <a href="/playstation-games">Playstation Games</a>
-          </li>
-          <li className="nav-link">
-            <a href="/switch-games">Switch Games</a>
-          </li>
+          <NavLink to="/shop/all" >All Games</NavLink>
+          <NavLink to="/shop/pc" >PC Games</NavLink>
+          <NavLink to="/shop/xbox">Xbox Games</NavLink>
+          <NavLink to="/shop/playstation">Playstation Games</NavLink>
+          <NavLink to="/shop/nintendo">Nintendo Games</NavLink>
         </ul>
       </div>
     </nav>

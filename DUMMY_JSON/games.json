@@ -1,0 +1,66 @@
+{
+  "1": {
+    "id": 1,
+    "title": "Asasssin's Creed Valhalla",
+    "description": "This is a description of the game",
+    "price": 50,
+    "platform": "PS",
+    "images": ["https://i.dummyjson.com/data/products/10/1.jpg"]
+  },
+  "2": {
+    "id": 2,
+    "title": "Asasssin's Creed Odyssey",
+    "description": "This is a description of the game",
+    "price": 30,
+    "platform": "Xbox",
+    "images": ["https://i.dummyjson.com/data/products/10/1.jpg"]
+  },
+  "3": {
+    "id": 3,
+    "title": "Asasssin's Creed Origins",
+    "description": "This is a description of the game",
+    "price": 40,
+    "platform": "PC",
+    "images": ["https://i.dummyjson.com/data/products/10/1.jpg"]
+  },
+  "4": {
+    "id": 4,
+    "title": "Asasssin's Creed Syndicate",
+    "description": "This is a description of the game",
+    "price": 15,
+    "platform": "PC",
+    "images": ["https://i.dummyjson.com/data/products/10/1.jpg"]
+  },
+  "5": {
+    "id": 5,
+    "title": "Asasssin's Creed Unity",
+    "description": "This is a description of the game",
+    "price": 10,
+    "platform": "PC",
+    "images": ["https://i.dummyjson.com/data/products/10/1.jpg"]
+  },
+  "6": {
+    "id": 6,
+    "title": "Asasssin's Creed Black Flag",
+    "description": "This is a description of the game",
+    "price": 9,
+    "platform": "Xbox",    
+    "images": ["https://i.dummyjson.com/data/products/10/1.jpg"]
+  },
+  "7": {
+    "id": 7,
+    "title": "Asasssin's Creed Rogue",
+    "description": "This is a description of the game",
+    "price": 5,
+    "platform": "PC",
+    "images": ["https://i.dummyjson.com/data/products/10/1.jpg"]
+  },
+  "8": {
+    "id": 8,
+    "title": "Asasssin's Creed III",
+    "description": "This is a description of the game",
+    "price": "Free",
+    "platform": "PC",
+    "images": ["https://i.dummyjson.com/data/products/10/1.jpg"]
+  }
+}

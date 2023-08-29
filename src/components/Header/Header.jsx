@@ -7,13 +7,14 @@ import NavLinks from "../Nav/NavLinks";
 const Header = () => {
   return (
     <>
-      <div className="header__container">
+      <header className="header__container">
         <NavBrand />
         <div className="search-form__container">
           <SearchForm />
         </div>
         <Controls />
-      </div>
+      </header>
+      
       <div className="sub-header_container">
         <NavLinks />
       </div>
